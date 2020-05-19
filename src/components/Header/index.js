@@ -7,21 +7,21 @@ import { Container, Cart } from './styles';
 import logo from '../../assets/images/logo.svg';
 
 function Header() {
-	return (
-		<Container>
-			<Link to="/">
-				<img src={logo} alt="Rocket Shoes" />
-			</Link>
-			<Cart to="/cart">
-				<div>
-					<strong>Meu Carrinho</strong>
-					<span>3 itens</span>
-				</div>
+  return (
+    <Container>
+      <Link to="/">
+        <img src={logo} alt="Rocket Shoes" />
+      </Link>
+      <Cart to="/cart">
+        <div>
+          <strong>Meu Carrinho</strong>
+          <span>3 itens</span>
+        </div>
 
-				<MdShoppingBasket size={36} color="#fff" />
-			</Cart>
-		</Container>
-	);
+        <MdShoppingBasket size={36} color="#fff" />
+      </Cart>
+    </Container>
+  );
 }
 
 export default Header;

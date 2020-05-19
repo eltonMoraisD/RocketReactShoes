@@ -7,13 +7,13 @@ import Routes from './routes';
 import Header from './components/Header/index';
 
 function App() {
-	return (
-		<BrowserRouter>
-			<GlobalStyles />
-			<Header />
-			<Routes />
-		</BrowserRouter>
-	);
+  return (
+    <BrowserRouter>
+      <GlobalStyles />
+      <Header />
+      <Routes />
+    </BrowserRouter>
+  );
 }
 
 export default App;
